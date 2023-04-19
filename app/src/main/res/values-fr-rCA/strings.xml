@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LePendu</string>
+    <string name="start">Débuter le jeu</string>
+    <string name="word">Trouver ce mot</string>
+    <string name="go">Jouer</string>
+    <string name="replay">Rejouer</string>
+</resources>

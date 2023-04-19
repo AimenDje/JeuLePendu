@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Trouver ce Mot:"
+            android:text="@string/word"
             android:textColor="@color/design_default_color_secondary_variant"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -107,7 +107,10 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="A" />
+                    android:onClick="lettre_OnClick"
+                    android:text="A"
+                    app:rippleColor="#673AB7"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/b"
@@ -116,7 +119,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="B" />
+                    android:onClick="lettre_OnClick"
+                    android:text="B"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/c"
@@ -125,7 +130,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="C" />
+                    android:onClick="lettre_OnClick"
+                    android:text="C"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/d"
@@ -134,7 +141,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="D" />
+                    android:onClick="lettre_OnClick"
+                    android:text="D"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/e"
@@ -143,7 +152,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="E" />
+                    android:onClick="lettre_OnClick"
+                    android:text="E"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/f"
@@ -152,7 +163,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="F" />
+                    android:onClick="lettre_OnClick"
+                    android:text="F"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/g"
@@ -161,7 +174,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="G" />
+                    android:onClick="lettre_OnClick"
+                    android:text="G"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/h"
@@ -170,7 +185,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="H" />
+                    android:onClick="lettre_OnClick"
+                    android:text="H"
+                    tools:ignore="TouchTargetSizeCheck" />
 
             </LinearLayout>
 
@@ -188,7 +205,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="I" />
+                    android:onClick="lettre_OnClick"
+                    android:text="I"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/j"
@@ -197,7 +216,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="J" />
+                    android:onClick="lettre_OnClick"
+                    android:text="J"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/k"
@@ -206,7 +227,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="K" />
+                    android:onClick="lettre_OnClick"
+                    android:text="K"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/l"
@@ -215,7 +238,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="L" />
+                    android:onClick="lettre_OnClick"
+                    android:text="L"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/m"
@@ -224,7 +249,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="M" />
+                    android:onClick="lettre_OnClick"
+                    android:text="M"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/n"
@@ -233,15 +260,18 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="N" />
+                    android:onClick="lettre_OnClick"
+                    android:text="N"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/o"
-                    android:layout_width="49px"
+                    android:layout_width="49dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
+                    android:onClick="lettre_OnClick"
                     android:text="O" />
 
                 <Button
@@ -251,7 +281,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="P" />
+                    android:onClick="lettre_OnClick"
+                    android:text="P"
+                    tools:ignore="TouchTargetSizeCheck" />
             </LinearLayout>
 
             <LinearLayout
@@ -268,7 +300,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="Q" />
+                    android:onClick="lettre_OnClick"
+                    android:text="Q"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/r"
@@ -277,7 +311,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="R" />
+                    android:onClick="lettre_OnClick"
+                    android:text="R"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/s"
@@ -286,7 +322,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="S" />
+                    android:onClick="lettre_OnClick"
+                    android:text="S"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/t"
@@ -295,7 +333,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="T" />
+                    android:onClick="lettre_OnClick"
+                    android:text="T"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/u"
@@ -304,7 +344,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="U" />
+                    android:onClick="lettre_OnClick"
+                    android:text="U"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/v"
@@ -313,7 +355,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="V" />
+                    android:onClick="lettre_OnClick"
+                    android:text="V"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/w"
@@ -322,7 +366,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="W" />
+                    android:onClick="lettre_OnClick"
+                    android:text="W"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
                     android:id="@+id/x"
@@ -331,7 +377,9 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
-                    android:text="X" />
+                    android:onClick="lettre_OnClick"
+                    android:text="X"
+                    tools:ignore="TouchTargetSizeCheck" />
             </LinearLayout>
 
             <LinearLayout
@@ -349,6 +397,7 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
+                    android:onClick="lettre_OnClick"
                     android:text="Y" />
 
                 <Button
@@ -358,6 +407,7 @@
                     android:layout_marginLeft="10px"
                     android:layout_marginRight="10px"
                     android:layout_weight="1"
+                    android:onClick="lettre_OnClick"
                     android:text="Z" />
 
             </LinearLayout>
@@ -380,7 +430,8 @@
             android:layout_marginLeft="10px"
             android:layout_marginRight="10px"
             android:layout_weight="1"
-            android:text="Debuter le jeu" />
+            android:onClick="renitialiserJeu_onClick"
+            android:text="@string/start" />
     </LinearLayout>
 
 </android.widget.LinearLayout>
